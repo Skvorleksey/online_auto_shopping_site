@@ -1,0 +1,17 @@
+/* header */
+
+.header{
+    background: url('../images/header_bg.jpg') center;
+    background-size: cover;
+}
+
+/* header__contacts */
+
+.header__contacts{
+    background: rgb(24, 23, 23);
+}
+
+.cart__image{
+    height: 30px;
+    stroke: tomato;
+}

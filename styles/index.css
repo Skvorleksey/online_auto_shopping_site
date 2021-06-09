@@ -1,8 +1,17 @@
 @import "variables.css";
+@import "header.css";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
 *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+}
+
+html{
+    font-family: 'Open Sans',Helvetica, sans-serif;
+    line-height: 1.5;
 }
 
