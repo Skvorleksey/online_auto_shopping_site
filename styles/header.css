@@ -3,6 +3,7 @@
 .header{
     background: url('../images/header_bg.jpg') center;
     background-size: cover;
+    color: var(--white);
 }
 
 /* header__contacts */
