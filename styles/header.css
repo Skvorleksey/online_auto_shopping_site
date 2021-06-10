@@ -10,9 +10,81 @@
 
 .header__contacts{
     background: rgb(24, 23, 23);
+    max-width: 100%;
+    margin-bottom: 20px;
 }
+
+/* phone_number */
+
+.phone_number{
+    list-style: none;
+    display: inline;
+}
+
+/* header__main */
+
+.header__main{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+/* cart__image */
 
 .cart__image{
     height: 30px;
     stroke: tomato;
+}
+
+/* header__menu--narrow */
+
+.header__menu--narrow{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+}
+
+@media(min-width: 768px){
+    .header__menu--narrow{
+        display: none;
+    }
+}
+
+/* header__menu_button */
+
+.header__menu_button{
+    background:  var(--button_color);
+    border: none;
+}
+
+/* header__menu */
+
+.header__menu{
+    
+}
+
+/* header__menu_list */
+
+.header__menu_list{
+    display: grid;
+    grid-auto-flow: row;
+}
+
+@media(min-width: 768px){
+    .header__menu_list{
+        display: grid;
+        grid-auto-flow: column;
+    }
+}
+
+/* header__menu_item */
+
+.header__menu_item{
+    list-style: none;
+}
+
+/* header__menu_link */
+
+.header__menu_link{
+    text-decoration: none;
 }

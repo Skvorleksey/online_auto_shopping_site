@@ -1,0 +1,7 @@
+/* footer */
+
+.footer{
+    background: url('../images/header_bg.jpg') center;
+    background-size: cover;
+    color: var(--white);
+}

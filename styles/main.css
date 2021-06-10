@@ -1,0 +1,169 @@
+/* main */
+
+.main{
+    margin-top: 40px;
+}
+
+/* search_and_pictures */
+
+.search_and_pictures{
+    display: grid;
+    grid-auto-flow: row;
+}
+
+@media(min-width: 768px){
+    .search_and_pictures{
+        display: grid;
+        grid-auto-flow: column;
+    }
+}
+
+/* search_details */
+.search_details{
+    border: solid var(--borders_color) 1px;
+
+}
+
+/* search_details */
+.search_details__header{
+
+}
+
+/* search_details */
+.search_details__form{
+
+}
+
+
+
+
+
+/* cars_models */
+.cars_models{
+
+}
+
+/* cars_models__pictures */
+.cars_models__pictures{
+    display: grid;
+    grid-auto-flow: column;
+    margin-bottom: 30px;
+}
+
+/* cars_models__single_picture_link */
+.cars_models__single_picture_link{
+    display: block;
+    border: solid var(--borders_color) 1px;
+}
+
+.cars_models__single_picture_link + .cars_models__single_picture_link{
+    display: block;
+    border-left: none;
+}
+
+/* cars_models__single_picture */
+.cars_models__single_picture{
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+
+
+
+
+
+/* cars_models__list */
+
+.cars_models__list{
+    margin-bottom: 30px;
+}
+
+/* car_models__brand */
+
+.car_models__brand{
+    margin-bottom: 15px;
+}
+
+/* cars_models__single_list */
+
+.cars_models__single_list{
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: repeat(3, max-content);
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+/* cars_models__list_item */
+
+.cars_models__list_item{
+    
+}
+
+/* catalogue__items */
+
+.catalogue__items{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+/* catalogue__single_item */
+
+.catalogue__single_item{
+    border: solid var(--borders_color) 1px;
+}
+
+/* catalogue__single_item_picture_link */
+
+.catalogue__single_item_picture_link{
+    margin: 30px;
+    overflow: hidden;
+}
+
+/* catalogue__single_item_picture */
+
+.catalogue__single_item_picture{
+
+    width: 50%;
+    transition: 2s;
+}
+
+.catalogue__single_item_picture:hover{
+
+    width: 60%;
+
+}
+
+/* catalogue__single_item_description */
+
+.catalogue__single_item_description{
+    
+}
+
+/* catalogue__single_item_name */
+
+.catalogue__single_item_name{
+    
+}
+
+/* catalogue__single_item_price */
+
+.catalogue__single_item_price{
+    
+}
+
+/* add_to_cart_button */
+
+.add_to_cart_button{
+    
+}
+
+/* catalogue__item_info */
+
+.catalogue__item_info{
+    
+}

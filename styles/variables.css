@@ -1,4 +1,6 @@
 :root{
     --white: rgb(255, 255, 255);
+    --button_color: rgb(70, 150, 255);
+    --borders_color: rgb(116, 116, 116);
 }
 

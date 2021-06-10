@@ -8,79 +8,96 @@
         <meta name='viewport' content='width=device-width, initial-scale=1'>
     </head>
     <body>
-        <!-- header  -->
+        <!-- header  -->        
         <header class="header">
+
             <div class="header__contacts">
-                <a class="header_contacts_icon" href=""></a>
-                <ul class="phones_list">
-                    <li class="phone_number">+1 123 456 789 234</li>
-                    <li class="phone_number">+1 123 456 789 234</li>
-                    <li class="phone_number">+1 123 456 789 234</li>
-                </ul>
+                <div class="container">
+                    <a class="header_contacts_icon" href=""></a>
+                    <ul class="phones_list">
+                        <li class="phone_number">+1 123 456 789 234 | </li>
+                        <li class="phone_number">+1 123 456 789 234 | </li>
+                        <li class="phone_number">+1 123 456 789 234</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="header__main">
+                    <img class="header__logo" src="images/logo.png" alt="">
+                    <form class="header__search" action="">
+                        <input type="text">
+                        <button class="" type="submit">Search</button>
+                    </form>
+                    <div class="header__order_call">
+                        <img src="images/headphones.png" alt="">
+                        <!--<svg class="order_call__image">-->
+                        <!--<use></use>-->    
+                        <!--</svg>--> 
+                        <p>Order callback</p>
+                    </div>
+                    <div class="header__cart">
+                        <img src="images/shopping-cart.png" alt="">
+                        <!--<svg class="order_call__image">-->
+                        <!--<use href="images/headphones#headphones"></use>-->    
+                        <!--</svg>--> 
+                        <p>My cart</p>
+                    </div>
+
+                </div>
+
+                <div class="header__menu--narrow">
+                    <p class="">Categories</p>
+                    <button class="header__menu_button">
+                        Menu button
+                    </button>
+                </div>
+                    
+
+                <nav class="header__menu">
+                    <ul class="header__menu_list">
+                        <li class="header__menu_item">
+                            <a class="header__menu_link" href="">Home page</a>
+                        </li>
+                        <li class="header__menu_item">
+                            <a class="header__menu_link" href="">Payment & delivery</a>
+                        </li>
+                        <li class="header__menu_item">
+                            <a class="header__menu_link" href="">Gear boxes</a>
+                        </li>
+                        <li class="header__menu_item">
+                            <a class="header__menu_link" href="">Motors</a>
+                        </li>
+                        <li class="header__menu_item">
+                            <a class="header__menu_link" href="">Tires</a>
+                        </li>
+                        <li class="header__menu_item">
+                            <a class="header__menu_link" href="">Rims</a>
+                        </li>
+                        <li class="header__menu_item">
+                            <a class="header__menu_link" href="">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
             
-            <div class="header__main">
-                <img class="header__logo" src="" alt="">
-                <form class="header__search" action="">
-                    <input type="text">
-                    <button class="" type="submit">Search</button>
-                </form>
-                <div class="header__order_call">
-                    <svg class="order_call__image">
-                        <use></use>
-                    </svg>
-                    <p>Order callback</p>
-                </div>
-                <div class="header__cart">
-                    <svg class="cart__image">
-                        <use href="images/headphones#headphones"></use>
-                    </svg>
-                    <p>My cart</p>
-                </div>
-
-            </div>
-
-            <button class="header__menu_button">
-                Menu button
-            </button>
-
-            <nav class="header__menu">
-                <ul class="header__menu_list">
-                    <li class="header__menu_item">
-                        <a class="header__menu_link" href="">Home page</a>
-                    </li>
-                    <li class="header__menu_item">
-                        <a class="header__menu_link" href="">Payment & delivery</a>
-                    </li>
-                    <li class="header__menu_item">
-                        <a class="header__menu_link" href="">Gear boxes</a>
-                    </li>
-                    <li class="header__menu_item">
-                        <a class="header__menu_link" href="">Motors</a>
-                    </li>
-                    <li class="header__menu_item">
-                        <a class="header__menu_link" href="">Tires</a>
-                    </li>
-                    <li class="header__menu_item">
-                        <a class="header__menu_link" href="">Rims</a>
-                    </li>
-                    <li class="header__menu_item">
-                        <a class="header__menu_link" href="">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
+            
 
         </header>
         <!-- / header  -->
 
         <!-- main  -->
         <main class="main">
-            <!-- search_and_pictures  -->
-            <section class="search_and_pictures">
-                <div class="search_details">
-                    <form action="">
-                        <fieldset>
-                            <legend>Search details</legend>
+            <div class="container">
+
+                <!-- search_and_pictures  -->
+                <section class="search_and_pictures">
+                    <div class="search_details">
+                        <div class="search_details__header">
+
+                        </div>
+
+                        <form class="search_details__form" action="">
                             <p></p>
                             <select name="" id="">
                                 <option selected value="">All</option>
@@ -118,76 +135,246 @@
                                 <option value=""></option>
                             </select>
                             <button>Search</button>
-                        </fieldset>
-                    </form>
-                </div>
+                        </form>
+                    </div>
 
-                <div class="pictures_gallery">
-                    <div class="pictures_gallery__outer">
-                        <div class="pictures_gallery__inner">
-                            <a class="pictire_gallery__link" href="">
-                                <img class="pictire_gallery__image" src="images/audi.jpeg" alt="">
-                            </a>
+                    <div class="pictures_gallery">
+                        <div class="pictures_gallery__outer">
+                            <div class="pictures_gallery__inner">
+                                <a class="pictire_gallery__link" href="">
+                                    <img class="pictire_gallery__image" src="images/audi.jpeg" alt="">
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-            </section>
-            <!--  / search_and_pictures  -->
+                </section>
+                <!--  / search_and_pictures  -->
 
-            <!-- cars_models  -->
-            <section class="cars_models">
-                <div class="cars_models__pictures">
-                    <a class="cars_models__single_picture_link" href="">
-                        <img class="cars_models__single_picture" src="images/audi_logo.jpg" alt="">
-                    </a>
-                </div>
+                <!-- cars_models  -->
+                <section class="cars_models">
+                    <div class="cars_models__pictures">
+                        <a class="cars_models__single_picture_link" href="">
+                            <img class="cars_models__single_picture" src="images/audi_logo.jpg" alt="">
+                        </a>
 
-                <div class="cars_models__lists">
-                    
-                </div>
-            </section>
-            <!--  / cars_models  -->
+                        <a class="cars_models__single_picture_link" href="">
+                            <img class="cars_models__single_picture" src="images/bmw_logo.jpg" alt="">
+                        </a>
 
-            <!-- catalogue  -->
-            <section class="catalogue">
+                        <a class="cars_models__single_picture_link" href="">
+                            <img class="cars_models__single_picture" src="images/infiniti_logo.png" alt="">
+                        </a>
+
+                        <a class="cars_models__single_picture_link" href="">
+                            <img class="cars_models__single_picture" src="images/mercedes_logo.jpg" alt="">
+                        </a>
+
+                        <a class="cars_models__single_picture_link" href="">
+                            <img class="cars_models__single_picture" src="images/porsche_logo.png" alt="">
+                        </a>
+
+                        <a class="cars_models__single_picture_link" href="">
+                            <img class="cars_models__single_picture" src="images/skoda-logo.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="cars_models__lists">
+                        <p class="car_models__brand">Audi</p>
+                        <ul class="cars_models__single_list">
+                            <li class="cars_models__list_item">A3 (8L1) 1996-2003</li>
+                            <li class="cars_models__list_item">A3 (8V) 2012-2020</li>
+                            <li class="cars_models__list_item">A4 (B5) 1994-2000</li>
+                            <li class="cars_models__list_item">A4 (B6) 2000-2004</li>
+                            <li class="cars_models__list_item">A4 (B7) 2004-2007</li>
+                            <li class="cars_models__list_item">A4 (B8) 2007-2015</li>
+                            <li class="cars_models__list_item">A4 (B8) Allroad 2009-2016</li>
+                            <li class="cars_models__list_item">A6 (C5) 1997-2004</li>
+                            <li class="cars_models__list_item">A6 (C5) Allroad Quattro 2000-2005</li>
+                            <li class="cars_models__list_item">A6 (C6) 2005-2011</li>
+                            <li class="cars_models__list_item">A6 (C7) 2011-2018</li>
+                            <li class="cars_models__list_item">Q5 2008-2012</li>
+                            <li class="cars_models__list_item">Q7 (4L) 2005-2015</li>
+                        </ul>
+
+                        <p class="car_models__brand">BMW</p>
+                        <ul class="cars_models__single_list">
+                            <li class="cars_models__list_item">3-серия E46 1998-2005</li>
+                            <li class="cars_models__list_item">5-серия E39 1995-2003</li>
+                            <li class="cars_models__list_item">5-серия E60/E61 2003-2009</li>
+                        </ul>
+
+                        <p class="car_models__brand">Infinity</p>
+                        <ul class="cars_models__single_list">
+                            <li class="cars_models__list_item">QX60 (2012-2021)</li>
+                        </ul>
+
+                        <p class="car_models__brand">Mercedes</p>
+                        <ul class="cars_models__single_list">
+                            <li class="cars_models__list_item">W163 M-Klasse (ML) 1997-2005</li>
+                            <li class="cars_models__list_item">W168 A-Klasse 1997-2004</li>
+                            <li class="cars_models__list_item">W203 C-Klasse 2000-2007</li>
+                            <li class="cars_models__list_item">W204 C-Klasse 2007-2014</li>
+                            <li class="cars_models__list_item">W210 E-Klasse 2000-2002</li>
+                            <li class="cars_models__list_item">W211 E-Klasse 2002-2009</li>
+                            <li class="cars_models__list_item">W212 E-Klasse 2009-2016</li>
+                            <li class="cars_models__list_item">W220 S-Klasse 1998-2005</li>
+                            <li class="cars_models__list_item">w221 S-Klasse 2005-2013</li>
+                            <li class="cars_models__list_item">X164 GL-Klasse (GL) 2006-2012</li>
+                        </ul>
+
+                        <p class="car_models__brand">Porsche</p>
+                        <ul class="cars_models__single_list">
+                            <li class="cars_models__list_item">Cayenne 9PA (955/957) 2002-2010</li>
+                        </ul>
+
+                        <p class="car_models__brand">Skoda</p>
+                        <ul class="cars_models__single_list">
+                            <li class="cars_models__list_item">Superb 2002-2008</li>
+                        </ul>
+                    </div>
+                </section>
+                <!--  / cars_models  -->
+
+                <!-- catalogue  -->
+                <section class="catalogue">
+                    <p>New</p>
+                    <div class="catalogue__items">
+                        <div class="catalogue__single_item">
+                            <a class="catalogue__single_item_picture_link" href="">
+                                <img class="catalogue__single_item_picture" src="images/gears-vector-icon.jpg" alt="Detail picture">
+                            </a>
+                            <div class="catalogue__single_item_description">
+                                <a class="catalogue__single_item_name">Detail name</a>
+
+                                <p class="catalogue__single_item_price">$999
+                                    <button class="add_to_cart_button">Add</button>
+                                </p>
+
+                                <p class="catalogue__item_info">Vendor code: 63460 <br>
+                                    Production year: 2007 <br>
+                                    Motor volume: 4.2 FSI <br>
+                                    OEM: 00000000000</p>
+                                
+
+                            </div>
+                        </div>
+
+                        <div class="catalogue__single_item">
+                            <a class="catalogue__single_item_picture_link" href="">
+                                <img class="catalogue__single_item_picture" src="images/gears-vector-icon.jpg" alt="Detail picture">
+                            </a>
+                            <div class="catalogue__single_item_description">
+                                <a class="catalogue__single_item_name">Detail name</a>
+
+                                <p class="catalogue__single_item_price">$999
+                                    <button class="add_to_cart_button">Add</button>
+                                </p>
+
+                                <p class="catalogue__item_info">Vendor code: 63460 <br>
+                                    Production year: 2007 <br>
+                                    Motor volume: 4.2 FSI <br>
+                                    OEM: 00000000000</p>
+                                
+
+                            </div>
+                        </div>
+
+                        <div class="catalogue__single_item">
+                            <a class="catalogue__single_item_picture_link" href="">
+                                <img class="catalogue__single_item_picture" src="images/gears-vector-icon.jpg" alt="Detail picture">
+                            </a>
+                            <div class="catalogue__single_item_description">
+                                <a class="catalogue__single_item_name">Detail name</a>
+
+                                <p class="catalogue__single_item_price">$999
+                                    <button class="add_to_cart_button">Add</button>
+                                </p>
+
+                                <p class="catalogue__item_info">Vendor code: 63460 <br>
+                                    Production year: 2007 <br>
+                                    Motor volume: 4.2 FSI <br>
+                                    OEM: 00000000000</p>
+                                
+
+                            </div>
+                        </div>
+
+                        <div class="catalogue__single_item">
+                            <a class="catalogue__single_item_picture_link" href="">
+                                <img class="catalogue__single_item_picture" src="images/gears-vector-icon.jpg" alt="Detail picture">
+                            </a>
+                            <div class="catalogue__single_item_description">
+                                <a class="catalogue__single_item_name">Detail name</a>
+
+                                <p class="catalogue__single_item_price">$999
+                                    <button class="add_to_cart_button">Add</button>
+                                </p>
+
+                                <p class="catalogue__item_info">Vendor code: 63460 <br>
+                                    Production year: 2007 <br>
+                                    Motor volume: 4.2 FSI <br>
+                                    OEM: 00000000000</p>
+                                
+
+                            </div>
+                        </div>
+                    </div>
 
 
-            </section>
-            <!--  / catalogue  -->
+                </section>
+                <!--  / catalogue  -->
 
-            <!-- tires  -->
-            <section class="tires">
+                <!-- tires  -->
+                <section class="tires">
+                    <h2 class="tires__header">Tires</h2>
+                    <div class=""></div>
+
+                </section>
+                <!--  / tires  -->
+
+                <!-- rims  -->
+                <section class="rims">
+                    <h2 class="rims__header">Rims</h2>
+                    <div class=""></div>
+
+                </section>
+                <!--  / rims  -->
+
+                <!-- text  -->
+                <section class="text">
+                    a loooot of text here
+
+                </section>
+                <!--  / text  -->
+
+                <!-- questions  -->
+                <section class="questions">
 
 
-            </section>
-            <!--  / tires  -->
+                </section>
+                <!--  / questions  -->
+            </div>
 
-            <!-- rims  -->
-            <section class="rims">
-
-
-            </section>
-            <!--  / rims  -->
-
-            <!-- text  -->
-            <section class="text">
-
-
-            </section>
-            <!--  / text  -->
-
-            <!-- questions  -->
-            <section class="questions">
-
-
-            </section>
-            <!--  / questions  -->
         </main>
         <!--  / main  -->
 
         <!-- foter  -->
-        <footer>
+        <footer class="footer" role="contentinfo">
+            <div class="container">
+
+            
+
+                <p>Info</p>
+                <ul>
+                    <li>Items below</li>
+                </ul>
+
+                <p>Support service</p>
+                <ul>
+                    <li>Items below</li>
+                </ul>
+            </div>
 
         </footer>
         <!-- / footer  -->

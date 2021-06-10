@@ -1,6 +1,9 @@
 @import "variables.css";
 @import "header.css";
 
+@import "main.css";
+@import "footer.css";
+
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
@@ -15,3 +18,7 @@ html{
     line-height: 1.5;
 }
 
+.container{
+    max-width: 1200px;
+    margin: 0px 100px;
+}
