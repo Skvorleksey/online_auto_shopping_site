@@ -26,17 +26,17 @@
                 <div class="header__main">
                     <img class="header__logo" src="images/logo.png" alt="">
                     <form class="header__search" action="">
-                        <input type="text">
-                        <button class="" type="submit">Search</button>
+                        <input class="header__search_input" type="text">
+                        <button class="header__search_button button" type="submit">Search</button>
                     </form>
-                    <div class="header__order_call">
+                    <div class="header__order_call header__interact">
                         <img src="images/headphones.png" alt="">
                         <!--<svg class="order_call__image">-->
                         <!--<use></use>-->    
                         <!--</svg>--> 
-                        <p>Order callback</p>
+                        <p>Order <br> callback</p>
                     </div>
-                    <div class="header__cart">
+                    <div class="header__cart header__interact">
                         <img src="images/shopping-cart.png" alt="">
                         <!--<svg class="order_call__image">-->
                         <!--<use href="images/headphones#headphones"></use>-->    
@@ -45,16 +45,14 @@
                     </div>
 
                 </div>
-
-                <div class="header__menu--narrow">
-                    <p class="">Categories</p>
-                    <button class="header__menu_button">
-                        Menu button
-                    </button>
-                </div>
-                    
-
                 <nav class="header__menu">
+                    <div class="header__menu--narrow">
+                        <p class="">Categories</p>
+                        <button class="header__menu_button button">
+                            Menu button
+                        </button>
+                    </div>
+
                     <ul class="header__menu_list">
                         <li class="header__menu_item">
                             <a class="header__menu_link" href="">Home page</a>
@@ -94,12 +92,12 @@
                 <section class="search_and_pictures">
                     <div class="search_details">
                         <div class="search_details__header">
-
+                            <p>Search details</p>
                         </div>
 
                         <form class="search_details__form" action="">
-                            <p></p>
-                            <select name="" id="">
+                            <p>Car brand</p>
+                            <select class="search_details__select" name="" id="">
                                 <option selected value="">All</option>
                                 <option value=""></option>
                                 <option value=""></option>
@@ -108,7 +106,7 @@
                                 <option value=""></option>
                             </select>
                             <p>Car model</p>
-                            <select name="" id="">
+                            <select class="search_details__select" name="" id="">
                                 <option selected value="">All</option>
                                 <option value=""></option>
                                 <option value=""></option>
@@ -117,7 +115,7 @@
                                 <option value=""></option>
                             </select>
                             <p>Some text</p>
-                            <select name="" id="">
+                            <select class="search_details__select" name="" id="">
                                 <option selected value="">All</option>
                                 <option value=""></option>
                                 <option value=""></option>
@@ -126,7 +124,7 @@
                                 <option value=""></option>
                             </select>
                             <p>Detail</p>
-                            <select name="" id="">
+                            <select class="search_details__select" name="" id="">
                                 <option selected value="">All</option>
                                 <option value=""></option>
                                 <option value=""></option>
@@ -134,7 +132,7 @@
                                 <option value=""></option>
                                 <option value=""></option>
                             </select>
-                            <button>Search</button>
+                            <button class="button">Search</button>
                         </form>
                     </div>
 
@@ -143,6 +141,18 @@
                             <div class="pictures_gallery__inner">
                                 <a class="pictire_gallery__link" href="">
                                     <img class="pictire_gallery__image" src="images/audi.jpeg" alt="">
+                                </a>
+
+                                <a class="pictire_gallery__link" href="">
+                                    <img class="pictire_gallery__image" src="images/mercedes.jpg" alt="">
+                                </a>
+
+                                <a class="pictire_gallery__link" href="">
+                                    <img class="pictire_gallery__image" src="images/tires.jpg" alt="">
+                                </a>
+
+                                <a class="pictire_gallery__link" href="">
+                                    <img class="pictire_gallery__image" src="images/rims.jpg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -248,7 +258,7 @@
                                 <a class="catalogue__single_item_name">Detail name</a>
 
                                 <p class="catalogue__single_item_price">$999
-                                    <button class="add_to_cart_button">Add</button>
+                                    <button class="add_to_cart_button button">Add</button>
                                 </p>
 
                                 <p class="catalogue__item_info">Vendor code: 63460 <br>
@@ -268,7 +278,7 @@
                                 <a class="catalogue__single_item_name">Detail name</a>
 
                                 <p class="catalogue__single_item_price">$999
-                                    <button class="add_to_cart_button">Add</button>
+                                    <button class="add_to_cart_button button">Add</button>
                                 </p>
 
                                 <p class="catalogue__item_info">Vendor code: 63460 <br>
@@ -288,7 +298,7 @@
                                 <a class="catalogue__single_item_name">Detail name</a>
 
                                 <p class="catalogue__single_item_price">$999
-                                    <button class="add_to_cart_button">Add</button>
+                                    <button class="add_to_cart_button button">Add</button>
                                 </p>
 
                                 <p class="catalogue__item_info">Vendor code: 63460 <br>
@@ -308,7 +318,87 @@
                                 <a class="catalogue__single_item_name">Detail name</a>
 
                                 <p class="catalogue__single_item_price">$999
-                                    <button class="add_to_cart_button">Add</button>
+                                    <button class="add_to_cart_button button">Add</button>
+                                </p>
+
+                                <p class="catalogue__item_info">Vendor code: 63460 <br>
+                                    Production year: 2007 <br>
+                                    Motor volume: 4.2 FSI <br>
+                                    OEM: 00000000000</p>
+                                
+
+                            </div>
+                        </div>
+
+                        <div class="catalogue__single_item">
+                            <a class="catalogue__single_item_picture_link" href="">
+                                <img class="catalogue__single_item_picture" src="images/gears-vector-icon.jpg" alt="Detail picture">
+                            </a>
+                            <div class="catalogue__single_item_description">
+                                <a class="catalogue__single_item_name">Detail name</a>
+
+                                <p class="catalogue__single_item_price">$999
+                                    <button class="add_to_cart_button button">Add</button>
+                                </p>
+
+                                <p class="catalogue__item_info">Vendor code: 63460 <br>
+                                    Production year: 2007 <br>
+                                    Motor volume: 4.2 FSI <br>
+                                    OEM: 00000000000</p>
+                                
+
+                            </div>
+                        </div>
+
+                        <div class="catalogue__single_item">
+                            <a class="catalogue__single_item_picture_link" href="">
+                                <img class="catalogue__single_item_picture" src="images/gears-vector-icon.jpg" alt="Detail picture">
+                            </a>
+                            <div class="catalogue__single_item_description">
+                                <a class="catalogue__single_item_name">Detail name</a>
+
+                                <p class="catalogue__single_item_price">$999
+                                    <button class="add_to_cart_button button">Add</button>
+                                </p>
+
+                                <p class="catalogue__item_info">Vendor code: 63460 <br>
+                                    Production year: 2007 <br>
+                                    Motor volume: 4.2 FSI <br>
+                                    OEM: 00000000000</p>
+                                
+
+                            </div>
+                        </div>
+
+                        <div class="catalogue__single_item">
+                            <a class="catalogue__single_item_picture_link" href="">
+                                <img class="catalogue__single_item_picture" src="images/gears-vector-icon.jpg" alt="Detail picture">
+                            </a>
+                            <div class="catalogue__single_item_description">
+                                <a class="catalogue__single_item_name">Detail name</a>
+
+                                <p class="catalogue__single_item_price">$999
+                                    <button class="add_to_cart_button button">Add</button>
+                                </p>
+
+                                <p class="catalogue__item_info">Vendor code: 63460 <br>
+                                    Production year: 2007 <br>
+                                    Motor volume: 4.2 FSI <br>
+                                    OEM: 00000000000</p>
+                                
+
+                            </div>
+                        </div>
+
+                        <div class="catalogue__single_item">
+                            <a class="catalogue__single_item_picture_link" href="">
+                                <img class="catalogue__single_item_picture" src="images/gears-vector-icon.jpg" alt="Detail picture">
+                            </a>
+                            <div class="catalogue__single_item_description">
+                                <a class="catalogue__single_item_name">Detail name</a>
+
+                                <p class="catalogue__single_item_price">$999
+                                    <button class="add_to_cart_button button">Add</button>
                                 </p>
 
                                 <p class="catalogue__item_info">Vendor code: 63460 <br>
@@ -378,5 +468,7 @@
 
         </footer>
         <!-- / footer  -->
+
+        <script src="index.js"></script>
     </body>
 </html>
