@@ -33,6 +33,7 @@
         grid-auto-flow: column;
         align-items: center;
         justify-content: space-between;
+        grid-template-columns: min-content 1fr min-content min-content;
     }
 }
 
@@ -84,6 +85,9 @@
     display: grid;
     grid-auto-flow: column;
     align-items: center;
+    height: 50px;
+    column-gap: 5px;
+    justify-content: center;
 }
 
 /* cart__image */

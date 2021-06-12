@@ -110,17 +110,27 @@
     display: grid;
     grid-auto-flow: column;
     margin-bottom: 30px;
+    height: 150px;
 }
 
 /* cars_models__single_picture_link */
 .cars_models__single_picture_link{
     display: block;
     border: solid var(--borders_color) 1px;
+    overflow: hidden;
+    margin: 20px 0px 0px;
+    transition: 0.5s;
+}
+
+.cars_models__single_picture_link:hover{
+    margin: 0px 0px 20px;
+    padding-bottom: 30px;
+    box-shadow: 0px 20px 20px 1px gray;
 }
 
 .cars_models__single_picture_link + .cars_models__single_picture_link{
     display: block;
-    border-left: none;
+    border-left: 0.5px solid var(--borders_color);
 }
 
 /* cars_models__single_picture */
@@ -128,8 +138,12 @@
     display: block;
     width: 70%;
     margin: auto;
+    transition: 0.5s;
 }
 
+.cars_models__single_picture:hover{
+    margin-bottom: 20px;
+}
 
 
 
@@ -195,6 +209,15 @@
     display: grid;
     grid-template-rows: 1fr max-content;
     overflow: hidden;
+    margin-top: 30px;
+    transition: 0.5s;
+    box-shadow: gray 0px 0px 5px 1px;
+}
+
+.catalogue__single_item:hover{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    box-shadow: gray 0px 14px 24px 7px;
 }
 
 /* catalogue__single_item_picture_link */
