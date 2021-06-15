@@ -4,6 +4,7 @@
     background: url('../images/header_bg.jpg') center;
     background-size: cover;
     color: var(--white);
+    padding-bottom: 10px;
 }
 
 /* header__contacts */
@@ -141,7 +142,7 @@
 /* header__menu */
 
 .header__menu{
-    
+    padding-top: 10px;
 }
 
 /* header__menu_list */
