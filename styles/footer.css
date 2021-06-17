@@ -4,4 +4,51 @@
     background: url('../images/header_bg.jpg') center;
     background-size: cover;
     color: var(--white);
+    padding: 50px 0px;
+}
+
+/*footer_blocks*/
+.footer_blocks{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+/*footer_block*/
+.footer_block{
+    
+}
+
+/*footer_block__heading*/
+.footer_block__heading{
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer_block__heading a{
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/*footer_block__list*/
+.footer_block__list{
+    
+}
+
+/*footer_block__list_item*/
+.footer_block__list_item{
+    list-style: none;
+}
+
+.footer_block__list_item a{
+    text-decoration: none;
+    color: rgb(121, 121, 121);
+}
+
+.footer_block__list_item a:hover{
+    text-decoration: underline;
+    color: var(--button_color);
 }

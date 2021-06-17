@@ -7,6 +7,10 @@ let gallerySlide = 0;
 const picturesGalleryArrowLeft = document.querySelector(".pictures_gallery__arrow_left");
 const picturesGalleryArrowRight = document.querySelector(".pictures_gallery__arrow_right");
 
+const questions = document.querySelectorAll(".single_question");
+const answers = document.querySelectorAll(".questions__answer");
+const questionsBlocks = document.querySelectorAll(".single_question_block");
+
 
 const moveGallery = ()=>{
     let galleryWindowWidth = picturesGalleryWindow.clientWidth;
@@ -50,3 +54,15 @@ picturesGalleryArrowRight.addEventListener('click',()=> {
     }
     moveGallery();
 })
+
+//questions open
+
+for (questionBlock of questionsBlocks){
+    let question = questionBlock.firstElementChild;
+    let answer = questionBlock.lastElementChild;
+    question.addEventListener('click', ()=>{
+        
+        answer.classList.toggle('questions__answer--closed');
+        answer.classList.toggle('questions__answer--opened');
+    })
+}

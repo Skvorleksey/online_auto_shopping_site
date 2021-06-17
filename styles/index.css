@@ -1,4 +1,5 @@
 @import "variables.css";
+@import "contacts.css";
 @import "header.css";
 
 @import "main.css";
@@ -27,4 +28,34 @@ html{
     background: var(--button_color);
     color: var(--white);
     border: none;
+}
+
+.division_line{
+    height: 1px;
+    width: 100%;
+    background: var(--borders_color);
+    margin: 20px 0px;
+}
+
+.route_of_site{
+    border: var(--borders_color) solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.route_of_site__link{
+    text-decoration: none;
+    margin: 0px 5px;
+    color: black;
+}
+
+.route_of_site__link:hover{
+    text-decoration: underline;
+    color: var(--button_color);
+}
+
+.route_of_site__current{
+    margin: 0px 5px;
 }
